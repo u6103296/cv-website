@@ -1,12 +1,8 @@
 # PERSONAL CV WEBSITE
 
-## Live Website
-
-## Figma Project
+## Links
 
 [Figma Project](https://www.figma.com/design/z2R2pgRBLmQ2mz1wF5RUaX/CV-Website?node-id=0-1&t=VRIqevDdkzv28cX8-1)
-
-## Figma Prototype
 
 [Figma Prototype](https://www.figma.com/proto/z2R2pgRBLmQ2mz1wF5RUaX/CV-Website?node-id=3-246&p=f&t=VRIqevDdkzv28cX8-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 

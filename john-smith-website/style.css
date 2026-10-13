@@ -1,0 +1,110 @@
+:root{
+    margin: 35px;
+}
+
+.header{
+    color:rgb(246, 104, 104);
+    background-color:brown;
+    width: 30;
+    padding: 15px;
+    font-size: 25px;
+    margin: -10px; 
+}
+
+h2{
+    background-color: rgb(230, 229, 229);
+    font-style: italic;
+    font-size: 25px;
+    width: 60%;
+    margin-top: 50px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.bio p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bio p::first-line {
+    text-transform: uppercase;
+}
+
+.bio img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.bio{
+    margin-bottom: 75px;
+}
+
+strong{
+    color: brown;
+}
+
+.teaching ul{
+    list-style-image: url("images/done.png");
+
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    font-weight: bold;
+}
+
+.research ul{
+    list-style-type: square;
+    ol{
+        list-style-type: lower-roman;
+    }
+}
+
+select{
+    border-radius: 10px;
+}
+
+table {
+    width: 700px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px rgb(82, 82, 82);
+}
+
+.schedule th,
+.schedule td {
+    border: 2px solid #7a3a32;
+    padding: 14px 10px;
+    background-color: #eeeeee;
+}
+
+.schedule tr:first-child th {
+    background-color: #ff7658;
+    color:#7a3a32;
+    text-transform: uppercase;
+}
+
+.schedule tr:not(:first-child) th {
+    background-color: #ff7658;
+    color:#7a3a32;
+    text-align: left;
+    width:300px;
+}
+
+.schedule tr:nth-child(odd) td {
+    background-color: white;
+}
+
+.schedule tr:nth-child(even) td {
+    background-color: #eeeeee;
+}

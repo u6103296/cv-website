@@ -1,0 +1,230 @@
+:root{
+    --primary: #173B67;
+    --secondary: #5F86B8;
+    --text-primary: #172A42;
+    --text-secondary: #667085;
+    --white: #FFFFFF;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-primary);
+    background-color: var(--white);
+    margin: 0px;
+}
+
+header{
+    background-color: var(--primary);
+    width: 100%;
+    height: 420px;
+}
+
+.header-info{
+    float: left;
+    margin-left: 70px;
+    margin-top: 60px;
+    width: 510px;
+    color: var(--white);
+}
+
+.profile-photo img{
+    width: 280px;
+    height: 280px;
+}
+
+.profile-photo{
+    float: left;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+.name{
+    font-size: 46px;
+    margin: 0px;
+}
+
+.studies{
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+
+.presentation{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.contact img{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+hr{
+    border: 0px;
+    border-top: 2px solid var(--secondary);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+section{
+    width: 1150px;
+    margin-left: 120px;
+}
+
+section h2{
+    font-size: 30px;
+    color: var(--primary);
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+
+.about-me p{
+    font-size: 22px;
+    color: var(--text-secondary);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.exp-educ-item h3{
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.exp-educ-item h4{
+    float: left;
+    font-size: 24px;
+    margin: 0px;
+    color: var(--secondary);
+}
+
+.date{
+    float: right;
+    font-size: 22px;
+    color: var(--text-secondary);
+    margin: 0px;
+}
+
+.description{
+    clear: both;
+    font-size: 22px;
+    color: var(--text-secondary);
+    margin-bottom: 0px;
+    margin-top: 12px;
+    padding-top: 8px;
+    width: 720px;
+}
+
+.experience hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.education hr{
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.skill-lang-item h3{
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.skill-lang-item{
+    float: left;
+    width: 100px;
+    margin-right: 162.5px;
+    text-align: center;
+}
+
+.last-item{
+    margin-right: 0px;
+}
+
+.skills hr,
+.languages hr{
+    clear:both;
+    margin-top: 25px;
+}
+
+.skills h2,
+.languages h2{
+    margin-bottom: 30px;
+}
+
+.about-me,
+.experience,
+.education, 
+.skills, 
+.languages,
+.projects{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.project-item{
+    background-color: var(--secondary);
+    height: 270px;
+    border-radius: 20px;
+}
+
+.project-info{
+    float: left;
+    width: 400px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.project-image{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.project-image img{
+    width: 430px;
+    height: 230px;
+}
+
+.project-info h3{
+    font-size: 28px;
+    color: var(--primary);
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.project-info h4{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+    color: var(--white);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.project-info p{
+    font-size: 22px;
+    color: var(--white);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.project-info a{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.project-info a:hover{
+    text-decoration: underline;
+}

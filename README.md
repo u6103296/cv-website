@@ -6,6 +6,8 @@
 
 [Figma Prototype](https://www.figma.com/proto/z2R2pgRBLmQ2mz1wF5RUaX/CV-Website?node-id=3-246&p=f&t=VRIqevDdkzv28cX8-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
+[Live Website](https://u6103296.github.io/cv-website/)
+
 ## Project Analysis
 
 ### User Persona
